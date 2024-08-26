@@ -1,74 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!-- 
+  TODO: Create a motivational post website.
+Style it how ever you like. 
+Look at the goal image for inspiration.
+But it must have the following features:
+1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts:
+  https://fonts.google.com/specimen/Libre+Baskerville
+2. The text should be white and background black.
+3. Add your own image into the images folder inside assets. It should have a 5px white border.
+4. The text should be center aligned.
+5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. 
+  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div. 
+6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
+-->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my resume</title>
-</head>
-<body>
-    <h1>Zayniddin's CV </h1>
-    <img src="./5352983673227566730.jpg" alt="z photo" height="200dp"width="200dp">
-    <h2>Education</h2>
-    <hr>
-    <ul>
-        <li>Graduated High school 2022</li>
-        <li>Study law in <a href="https://tsul.uz/en">Tashkent state university of law</a> (will be graduated) 2026 </li>
-    </ul>
-    <h2>Work experience</h2>
-    <hr>
-    <ul>
-        <li> Dispatcher <p> responsible of taking loads and dispatch for drivers, answering emails from brokers </p>
-        </li>
-        <li>Backend Developer
-            <p>developed a new RESTful API to improve data access, optimized database queries to reduce load times</p>
-        </li>
+    <title>Motiveposter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
 
-    </ul>
-    <h2>Languages</h2>
-    <ul>
-        <li>English </li>
-        <li>Russian</li>
-        <li>Turkish</li>
-        <li>Uzbek</li>
-        <li>German (little bite) </li>
-    </ul>
-    <h2>Skills</h2>
-    <hr>
-    <ol>
-        <li>Python Django</li>
-        <li>Java Spring</li>
-        <li>MySql</li>
-        <li>Machine Learning Sklearn
-            <ul>
-                <li>Sklearn</li>
-                <li>Pandas</li>
-                <li>Numpy</li>
-                <li>Matplotlib</li>
-                <li>Seaborn</li>
-            </ul>
-        </li>
-        <li>Deep learning
-            <ul>
-                <li>Tensorflow</li>
-                <li>PyTorch</li>
-                <li>Tensorflow</li>
-            </ul>
-        </li>
-
-    </ol>
-
-    <h2>Summary</h2>
-    <hr>
-    <p>I am junior data scientist who knows several languages and try to use AI in law industry. And also try to learn Android , Web , Cyber Security and improve my skills and experience. I planned to learn game dev&#128517;</p>
-    <a href="./myhobbies.html"> my hobbies and achievement</a>
-    <br>
-    <a href="./contact.html">contact me</a>
-    <h3>Click above to see my hobbies and extra skill or simpky contact me 👆</h3>
-    <footer>
-        <h4> ©️ Zayniddin </h4>
-    </footer>
-
-
-    
-</body>
-</html>
+  </head>
+  <body>
+    <div>
+      <img src="./assets/images/michael.jpg" alt="michael corleone">
+      <h1>Keep Your Friends Close, And Your Enemies Closer</h1>
+      <p>Michael Corleone </p>
+    </div>
+  </body>
+  </html>
